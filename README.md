@@ -13,7 +13,7 @@ Este projeto contém testes automatizados para o site [NEXDOM](https://nexdom.te
 - Conta GitHub com **Personal Access Token** (`repo` + `delete_repo`)
 
 ## Instalação
-
+-Execute o comando abaixo para clonar o repositório e instalar todas as dependências necessárias para rodar os testes
 ```bash
 git clone https://github.com/albtn9/etapa-desafio.git
 ```
@@ -51,6 +51,6 @@ npm run test:api          # executar testes back headless
 ```
 
 ## Observações
-Testes de UI incluem validação de menu, formulário, vídeo principal e link de vagas.
-Testes de API realizam criação e exclusão de repositório de forma segura com token GitHub.
-Comandos customizados no Cypress simplificam ações repetitivas.
+-Testes de UI incluem validação de menu, formulário, vídeo principal e link de vagas.
+-Testes de API realizam criação e exclusão de repositório de forma segura com token GitHub.
+-Comandos customizados no Cypress simplificam ações repetitivas.
