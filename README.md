@@ -16,7 +16,11 @@ Este projeto contém testes automatizados para o site [NEXDOM](https://nexdom.te
 
 ```bash
 git clone https://github.com/albtn9/etapa-desafio.git
+```
+```bash
 cd nexdom-test
+```
+```bash
 npm install
 ```
 
@@ -40,9 +44,9 @@ npx cypress run           # executar todos os testes headless
 
 **Back-end (API GitHub)**
 ```bash
-
 npx cypress run --spec "cypress/e2e/api/github.cy.js"
 ```
+
 ## Observações
 Testes de UI incluem validação de menu, formulário, vídeo principal e link de vagas.
 Testes de API realizam criação e exclusão de repositório de forma segura com token GitHub.
