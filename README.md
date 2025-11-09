@@ -51,6 +51,6 @@ npm run test:api          # executar testes back headless
 ```
 
 ## Observações
--Testes de UI incluem validação de menu, formulário, vídeo principal e link de vagas.
--Testes de API realizam criação e exclusão de repositório de forma segura com token GitHub.
--Comandos customizados no Cypress simplificam ações repetitivas.
+- Testes de UI incluem validação de menu, formulário, vídeo principal e link de vagas.
+- Testes de API realizam criação e exclusão de repositório de forma segura com token GitHub.
+- Comandos customizados no Cypress simplificam ações repetitivas.
