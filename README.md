@@ -24,7 +24,7 @@ Configure cypress.env.js com:
 
 ```bash
 {
-  "github_user": "<SUSUARIO_GITHUB>",
+  "github_user": "<USUARIO_GITHUB>",
   "github_token": "<PERSONAL_ACCESS_TOKEN>"
 }
 ```
