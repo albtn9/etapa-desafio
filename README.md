@@ -18,7 +18,7 @@ Este projeto contém testes automatizados para o site [NEXDOM](https://nexdom.te
 git clone https://github.com/albtn9/etapa-desafio.git
 ```
 ```bash
-cd nexdom-test
+cd etapa-desafio
 ```
 ```bash
 npm install
