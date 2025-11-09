@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:all": "cypress run"
+    "test:nexdom": "cypress run --spec 'cypress/e2e/nexdomtec/**/*.cy.js'"
   },
   "keywords": [],
   "author": "",
