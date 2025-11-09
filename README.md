@@ -40,14 +40,14 @@ Configure cypress.env.js com:
 
 **Front-end (UI)**
 ```bash
-
+npm run test:nexdom       # executar testes front headless
 npx cypress open          # abrir a interface Cypress
 npx cypress run           # executar todos os testes headless
 ```
 
 **Back-end (API GitHub)**
 ```bash
-npx cypress run --spec "cypress/e2e/api/github.cy.js"
+npm run test:api          # executar testes back headless
 ```
 
 ## Observações
