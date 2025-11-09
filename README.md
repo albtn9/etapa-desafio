@@ -7,9 +7,9 @@ Este projeto contém testes automatizados para o site [NEXDOM](https://nexdom.te
 - **Back-end (API GitHub)**: criação, consulta, criação de issue, exclusão e verificação de repositório.
 
 ## Pré-requisitos
-- Node.js
-- NPM ou Yarn
-- Cypress >= 13.x
+- Node.js Usei v22.19.0
+- NPM Usei 10.9.3
+- Cypress Usei >= 13.5.1
 - Conta GitHub com **Personal Access Token** (`repo` + `delete_repo`)
 
 ## Instalação
@@ -23,7 +23,10 @@ cd etapa-desafio
 ```bash
 npm install
 ```
-
+OU
+```bash
+npm i
+```
 Configure cypress.env.js com:
 
 ```bash
